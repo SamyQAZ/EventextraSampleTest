@@ -7,7 +7,7 @@ describe('My first test', function () {
 		cy.url()
 		  .should('include', '/users/sign_in')
 
-		cy.get('.sc-cvbbAY').type('test.11@eventextra.com')  
+		cy.get('.sc-cvbbAY').type('test12@eventextra.com')  
 
 		cy.get('.xtra-button').click()
 
