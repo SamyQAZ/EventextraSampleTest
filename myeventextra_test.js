@@ -33,13 +33,13 @@ describe('My first test', function () {
 
     // https://app.eventxtra.com/parties
 
-    	cy.get('#hosting-block > .sc-kGXeez').contains('I am hosting')
+    		cy.get('#hosting-block > .sc-kGXeez').contains('I am hosting')
 
-    	cy.get('#exhibiting-block').contains('I am exhibiting / attending')
+    		cy.get('#exhibiting-block').contains('I am exhibiting / attending')
 
 		cy.get('#hosting-block > .sc-kGXeez').click()    	
 
-    	cy.get('.positive-btn').click()
+    		cy.get('.positive-btn').click()
 		
 		cy.get('.positive-btn').contains('Skip for now')
 		  .click() 	 
